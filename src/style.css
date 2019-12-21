@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    /* position: absolute;Relative is relative to itself but absolute is relative to its parent */
+    position:fixed;
+    width: 100%;
+    height: 650px;
+    background: url("../assets/imgs/1-hero-image.jpg");
+    background-size: cover;
+    background-position: 0 -120px;
+    z-index: -1;
+}
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background: rgba(0,0,0, 0.4);
+    z-index: 1;
+    box-sizing: inherit;
+}
+.navbar{
+    padding: 48px 16px;
+    width: 100%;
+    height: 20px;
+    box-sizing: inherit;
+}
+.container{
+    display: flex;  
+    align-items: center;
+    margin: 0 88px;
+    padding: 0 15px;
+    /* justify-content: space-evenly; */
+}
+.nav-items{
+    padding: 0 16px;    
+}
+.nav-links{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.nav-links:hover{
+    color: white;
+}
+.nav-header{
+    margin-right: auto;
+    color: white;
+    font-size: 1.5rem;
+}
+.content-header{
+    margin: 0 104px;
+    padding: 0 15px;
+}
+.content-header-heading{
+    color: white;
+    font-size: 2rem;
+    margin: 104px 0 0 0;
+    line-height: 4rem;
+}
+.content-header-main{
+    color: white;
+    line-height: 3rem;
+    font-size: 1.1rem;
+}
+.form-input{
+    display: inline-block;
+    width: 329px;
+    height: 21px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: none;
+}
+.form-input:focus{
+outline-color: #FF574E;
+}
+.form-button{
+    display: inline-block;
+    width: 253px;
+    height: 21px;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background: #FF574E;
+    box-sizing: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.form-button:hover{
+    background: #ff3328;
+}
