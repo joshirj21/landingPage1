@@ -142,3 +142,25 @@ outline-color: #FF574E;
     height: 340px;
     filter: brightness(50%);
 }
+/* .contact-info{
+    position: absolute;
+    top: 1660px;
+    height: 440px;
+    background: white;
+    width: 100%;
+} */
+.footer{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 1660px;
+    background: #343A40;
+}
+#contain-footer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+}
